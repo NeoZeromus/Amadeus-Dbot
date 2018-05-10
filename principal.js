@@ -143,4 +143,4 @@ if(command === "cui"){
 });
 
 
-client.login(process.env.bot_token);
+client.login(process.env.TOKEN);
