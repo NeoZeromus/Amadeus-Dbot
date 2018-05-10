@@ -1,0 +1,13 @@
+{
+  "name": "Amadeus",
+  "description": "Botamadeus",
+  "version": "0.0.0",
+  "main": "principal.js",
+  "scripts": {
+    "start": "node principal.js"
+  },
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
+  }
+}
