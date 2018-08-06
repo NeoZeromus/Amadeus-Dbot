@@ -27,6 +27,10 @@ client.on("message", (message) => {
   if (command === 'tuturu') {
    	message.channel.send("https://youtu.be/hzfmBNn2u1c")
   };
+ 
+   if (command === 'vietnam') {
+   	message.channel.send("https://youtu.be/eEVL9irXj0g")
+  };
 
  if (command === 'wiwi') {
    	message.channel.send("https://youtu.be/mz4Stu9k4CE")
