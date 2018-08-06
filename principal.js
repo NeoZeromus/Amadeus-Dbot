@@ -35,6 +35,10 @@ client.on("message", (message) => {
  if (command === 'wiwi') {
    	message.channel.send("https://youtu.be/mz4Stu9k4CE")
   };
+ 
+ if (command === 'sadsong') {
+   	message.channel.send("https://youtu.be/kbamoPhIanc")
+  };
 
   if (command === 'commands') {
    	message.channel.send("!cepillada , !tururu , !wiwi , !waka , !wulfito, !commands, !wulfito, !lucas, !mishka, !pato, !avenita , !red, !say [lo que quieras que diga el bot]")
