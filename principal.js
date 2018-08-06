@@ -28,6 +28,7 @@ client.on("message", (message) => {
    	message.channel.send("https://youtu.be/hzfmBNn2u1c")
   };
  
+ 
    if (command === 'vietnam') {
    	message.channel.send("https://youtu.be/eEVL9irXj0g")
   };
@@ -38,6 +39,7 @@ client.on("message", (message) => {
  
  if (command === 'sadsong') {
    	message.channel.send("https://youtu.be/kbamoPhIanc")
+     	message.channel.send(" https://pbs.twimg.com/media/DgB8gcRXkAQphrF.jpg")
   };
 
   if (command === 'commands') {
