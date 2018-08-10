@@ -9,7 +9,7 @@ const config = require("./config.json");
 
 
 client.on("message", (message) => {
-  const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
+  const args = message.content.slice(config.prefix.length).trim().split(' ');
   const command = args.shift().toLowerCase();
   if (message.channel.type === "dm") return; // Ignore DM channels.
    if (message.author.bot) return; // Ignore bots.
@@ -20,6 +20,8 @@ client.on("message", (message) => {
    	message.channel.send(message.author.id)
   };
 
+ 
+ 
   if (command === 'cepillada') {
    	message.channel.send("https://www.youtube.com/watch?v=Hqi77L3DKfw&feature=youtu.be")
   };
@@ -38,8 +40,12 @@ client.on("message", (message) => {
   };
  
  if (command === 'sadsong') {
-   	message.channel.send("https://youtu.be/kbamoPhIanc")
-     	message.channel.send(" https://pbs.twimg.com/media/DgB8gcRXkAQphrF.jpg")
+  
+ const embed = new Discord.RichEmbed()
+  .setColor(0x00AE86)
+  .setImage("https://pbs.twimg.com/media/DgB8gcRXkAQphrF.jpg")
+      message.channel.send({embed});
+
   };
 
   if (command === 'commands') {
