@@ -40,13 +40,8 @@ client.on("message", (message) => {
   };
  
  if (command === 'sadsong') {
-  
- const embed = new Discord.RichEmbed()
-  .setColor(0x00AE86)
-  .setImage("https://pbs.twimg.com/media/DgB8gcRXkAQphrF.jpg")
-      message.channel.send({embed});
-
-  };
+		message.channel.send("https://youtu.be/kbamoPhIanc")
+ };
 
   if (command === 'commands') {
    	message.channel.send("!cepillada , !tururu , !wiwi , !waka , !wulfito, !commands, !wulfito, !lucas, !mishka, !pato, !avenita , !red, !say [lo que quieras que diga el bot]")
