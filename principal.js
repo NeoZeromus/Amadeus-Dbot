@@ -21,13 +21,12 @@ client.on("message", (message) => {
   };
 	
   if (command ==='sadpenguin' ) {
+	    message.delete();
    	const embed = new Discord.RichEmbed() 
   .setColor(0x00AE86)
   .setImage("  https://pbs.twimg.com/media/DgB8gcRXkAQphrF.jpg") 
   message.channel.send({embed});
-  };	
-
- 
+  };	 
  
   if (command === 'cepillada') {
    	message.channel.send("https://www.youtube.com/watch?v=Hqi77L3DKfw&feature=youtu.be")
