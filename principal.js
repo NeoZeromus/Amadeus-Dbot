@@ -19,6 +19,13 @@ client.on("message", (message) => {
   if (command ==='token' ) {
    	message.channel.send(message.author.id)
   };
+	
+  if (command ==='sadpenguin' ) {
+   	const embed = new Discord.RichEmbed() 
+  .setColor(0x00AE86)
+  .setImage("  https://pbs.twimg.com/media/DgB8gcRXkAQphrF.jpg") 
+  message.channel.send({embed});
+  };	
 
  
  
