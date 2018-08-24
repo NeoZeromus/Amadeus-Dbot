@@ -106,7 +106,7 @@ if(command === "cui"){
   message.channel.send("CUI")};
 
   if(command === "say"){
-  let text = args.slice(1).join(" ");
+  let text = args.slice(0).join(" ");
   message.delete();
   message.channel.send(text);
 	  console.log(message.author.username);
