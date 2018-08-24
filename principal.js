@@ -108,9 +108,11 @@ if(command === "cui"){
   if(command === "say"){
   let text = args.slice(1).join(" ");
   message.delete();
-  message.channel.send(text)};
-	console.log(message.author.id);
+  message.channel.send(text);
+	  console.log(message.author.username);
 	console.log(text);
+  };
+	
 	
 });
 
