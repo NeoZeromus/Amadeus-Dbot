@@ -108,7 +108,7 @@ if(command === "cui"){
   if(command === "say"){
   let text = args.slice(1).join(" ");
   message.delete();
-  message.channel.send(text)};
+  message.channel.send(text)};console.log("dankmemes");
 });
 
 
