@@ -40,6 +40,10 @@ client.on("message", (message) => {
    if (command === 'vietnam') {
    	message.channel.send("https://youtu.be/eEVL9irXj0g")
   };
+	
+	   if (command === 'evo') {
+   	message.channel.send("https://youtu.be/kuSMEVhPvTY")
+  };
 
  if (command === 'wiwi') {
    	message.channel.send("https://youtu.be/mz4Stu9k4CE")
