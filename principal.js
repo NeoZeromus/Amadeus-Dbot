@@ -49,6 +49,15 @@ client.on("message", (message) => {
    	message.channel.send("https://youtu.be/mz4Stu9k4CE")
   };
  
+  if (command ==='negas' ) {
+	    message.delete();
+   	const embed = new Discord.RichEmbed() 
+  .setColor(0x00AE86)
+  .setImage("https://media.discordapp.net/attachments/488866936457789441/489892969642590210/received_1865442726874246.jpeg?width=380&height=676") 
+	
+  message.channel.send({embed});
+  };	 	
+	
  if (command === 'sadsong') {
 		message.channel.send("https://youtu.be/kbamoPhIanc")
  };
